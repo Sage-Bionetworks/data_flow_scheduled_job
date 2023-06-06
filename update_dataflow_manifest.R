@@ -3,7 +3,7 @@
 #   https://help.sc.sageit.org/sc/Service-Catalog-Provisioning.938836322.html#ServiceCatalogProvisioning-ScheduledJobs
 
 # load libraries
-library(dataflow)
+library(dfamodules)
 
 # set variables
 base_url <- "https://schematic-dev.api.sagebionetworks.org/"
