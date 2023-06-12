@@ -212,7 +212,7 @@
       "RemoteUsername": "Sage-Bionetworks",
       "RemoteRepo": "dfamodules",
       "RemoteRef": "dev-scheduled-job",
-      "RemoteSha": "373ac2bf23479abc129271556e7db0c3f6827d20",
+      "RemoteSha": "f7c891955402a0f9718d3d1eb3322842f09ae321",
       "Requirements": [
         "DT",
         "dplyr",
@@ -229,7 +229,7 @@
         "shinyjs",
         "waiter"
       ],
-      "Hash": "e81a23f96bd175e6912ac48f784e2840"
+      "Hash": "12aeb6e46870c66f78199b661e0be7c2"
     },
     "digest": {
       "Package": "digest",
