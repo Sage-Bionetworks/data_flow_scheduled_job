@@ -13,7 +13,11 @@ manifest_dataset_id <- Sys.getenv("MANIFEST_DATASET_ID")
 secrets <- jsonlite::fromJSON(Sys.getenv("SCHEDULED_JOB_SECRETS"))
 access_token <- secrets$pat
 
-print(getwd())
+# check variables
+if (is.null(schema_url) || nchar(schema_url) == 0) stop("missing schema_url")
+if (is.null(asset_view) || nchar(asset_view) == 0) stop("missing asset_view")
+if (is.null(manifest_dataset_id) || nchar(manifest_dataset_id) == 0) stop("missing manifest_dataset_id")
+if (is.null(access_token) || nchar(access_token) == 0) stop("missing access_token")
 
 # update FAIR demo
 tryCatch({
