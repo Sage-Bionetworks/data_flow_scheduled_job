@@ -1,2 +1,3 @@
 # data_flow_scheduled_job
-Dockerfiles and scripts for scheduled jobs related to the Data Flow App
+
+Repository that contains code for a scheduled job that runs every 15 mins to keep Data Flow manifests up to date with the most recent Synapse changes.
